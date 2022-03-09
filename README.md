@@ -1,6 +1,6 @@
 # e_commerce
 
-A new Flutter project.
+A new Flutter project bloc firebase
 
 ## Getting Started
 
