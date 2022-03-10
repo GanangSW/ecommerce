@@ -40,6 +40,11 @@ class HomeView extends StatelessWidget {
                 products: Product.products
                     .where((product) => product.isRecommended)
                     .toList()),
+            const SectionTitle(title: 'MOST POPULAR'),
+            ProductCarousel(
+                products: Product.products
+                    .where((product) => product.isPopular)
+                    .toList()),
           ],
         ),
       ),

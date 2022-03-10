@@ -71,7 +71,7 @@ class Product extends Equatable {
           'https://images.unsplash.com/photo-1520342868574-5fa3804e551c?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=6ff92caffcdd63681a35134a6770ed3b&auto=format&fit=crop&w=1951&q=80',
       price: 5.0,
       isRecommended: false,
-      isPopular: true,
+      isPopular: false,
     ),
     const Product(
       name: 'name6',
@@ -80,7 +80,7 @@ class Product extends Equatable {
           'https://images.unsplash.com/photo-1519125323398-675f0ddb6308?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=94a1e718d89ca60a6337a6008341ca50&auto=format&fit=crop&w=1950&q=80',
       price: 6.0,
       isRecommended: true,
-      isPopular: true,
+      isPopular: false,
     ),
   ];
 }
