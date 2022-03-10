@@ -1,3 +1,4 @@
+import 'package:e_commerce/models/models.dart';
 import 'package:e_commerce/view/view.dart';
 import 'package:flutter/material.dart';
 
@@ -11,7 +12,7 @@ class AppRouter {
       case CartView.routeName:
         return CartView.route();
       case CatalogView.routeName:
-        return CatalogView.route();
+        return CatalogView.route(category: settings.arguments as Category);
       case WishlistView.routeName:
         return WishlistView.route();
       case ProductView.routeName:
